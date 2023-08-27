@@ -1,0 +1,13 @@
+.edit-profile{
+  border: 5px solid white;
+  border-radius: 20px;
+  width: 60%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+label{
+  display: block;
+}

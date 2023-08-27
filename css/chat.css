@@ -1,0 +1,79 @@
+:root{
+  --back-color: #e7e7e7;
+  --color-blue: #224bcf;
+}
+.chat {
+  flex-direction: column;
+}
+.form {
+  background-color: white;
+  width: 800px;
+  padding: 30px;
+  border-radius: 10px;
+  padding-left: 80px;
+}
+.form label {
+  font-size: 2rem;
+  text-align: left;
+  font-weight: bold;
+}
+.form input, textarea {
+  background-color: var(--back-color);
+  text-transform: none;
+  width: 90%;
+  min-height: 5rem;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px;
+}
+textarea{
+  resize: none;
+}
+input[type="submit"] {
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: var(--color-blue);
+}
+input[type="submit"]:hover{
+  transform: none;
+}
+
+/* media query */
+
+@media (max-width: 768px) {
+  .form {
+    width: 100%;
+    padding: 20px 5px 20px 30px;
+  }
+  .form .label {
+    font-size: 2rem;
+  }
+  .form .input, textarea{
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 884px) {
+  .chat{
+    margin: 90px auto;
+  }
+  .form{
+    height: 520px;
+    padding: 40px 10px 40px 70px;
+  }
+  .form label{
+    font-size: 3rem;
+    padding: 10px 0;
+  }
+  .form input, textarea{
+    font-size: 2.5rem;
+    margin: 10px 0;
+  }
+  .form input{
+    min-height: 7rem;
+  }
+  input[type="submit"]{
+    margin-bottom: 20px;
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,36 @@
+html{
+  overflow-x: hidden;
+}
+input {
+  margin: 10px auto;
+}
+.illustration-icon img {
+  width: 600px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .illustration-icon img{
+    width: 400px;
+    height: 300px;
+    margin: 70px auto 10px auto;
+  }
+}
+
+@media (max-width: 380px) {
+  .illustration-icon img{
+    width: 379px;
+  }
+}
+@media only screen and (max-width:320px) {
+  .illustration-icon img{
+    width: 341px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 884px) {
+  .illustration-icon img {
+    width: 550px;
+    height: 500px;
+  }
+}
