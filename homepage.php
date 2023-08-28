@@ -35,7 +35,7 @@
         <ul>
             <li><a href="homepage">home</a></li>
             <li><a href="courses">courses</a></li>
-            <li><a href="">forum<i class="fa-solid fa-arrow-down"></i></a>
+            <li><a role="link" aria-disabled="true">forum<i class="fa-solid fa-arrow-down"></i></a>
             <ul>
                 <li><a href="the-room">the room</a></li>
                 <li><a href="chat">create a post</a></li>
